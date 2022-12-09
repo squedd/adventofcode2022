@@ -1,7 +1,7 @@
 import string
 priority_values = " " + string.ascii_lowercase + string.ascii_uppercase
 
-def process_file(file='day3.txt'):
+def process_file(file='../Inputs/day3.txt'):
     return [line.strip() for line in open(file)]
 
 

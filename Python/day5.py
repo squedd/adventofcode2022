@@ -1,4 +1,4 @@
-def process_file(file='day5.txt'):
+def process_file(file='../Inputs/day5.txt'):
     with open(file) as f:
         ship, instructions = f.read().split("\n\n")
 

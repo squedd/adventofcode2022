@@ -1,4 +1,4 @@
-def process_file(file="day6.txt"):
+def process_file(file="../Inputs/day6.txt"):
     with open(file) as f:
         data_stream = f.read().strip()
         return data_stream

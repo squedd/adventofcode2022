@@ -1,4 +1,4 @@
-def process_file(file='day4.txt'):
+def process_file(file='../Inputs/day4.txt'):
     assignment_pairs = list()
     for line in open(file):
         section_ids_1, section_ids_2 = line.strip().split(",")
