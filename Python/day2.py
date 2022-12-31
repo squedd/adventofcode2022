@@ -38,7 +38,10 @@ def part2():
         points += (condition_index * 3)
 
     return points
-
-print("Day 2: Rock Paper Scissors")
-print("Part 1:", part1())
-print("Part 2:", part2())
+    
+def solution():
+    print("Day 2: Rock Paper Scissors")
+    print("Part 1:", part1())
+    print("Part 2:", part2())
+    
+solution()
