@@ -39,6 +39,6 @@ def part2():
 
     return points
 
-
+print("Day 2: Rock Paper Scissors")
 print("Part 1:", part1())
 print("Part 2:", part2())
