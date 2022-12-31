@@ -12,5 +12,9 @@ def part2():
     reindeer_calories = process_file()
     return sum(reindeer_calories[:top_three])
 
-print("Part 1:", part1())
-print("Part 2:", part2())
+def solution():
+    print("Day 1: Calorie Counting")
+    print("Part 1:", part1())
+    print("Part 2:", part2())
+    
+solution()
